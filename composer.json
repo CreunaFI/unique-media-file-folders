@@ -1,0 +1,14 @@
+{
+    "name": "joppuyo/unique-media-file-folders",
+    "type": "wordpress-plugin",
+    "authors": [
+        {
+            "name": "Johannes Siipola",
+            "email": "johannes@siipo.la"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^3.8",
+        "ademarre/binary-to-text-php": "dev-master"
+    }
+}
