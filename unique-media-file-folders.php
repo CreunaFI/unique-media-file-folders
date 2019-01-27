@@ -45,6 +45,18 @@ function umff_custom_upload_dir($path)
     $base32 = new Base2n(5, 'abcdefghijklmnopqrstuvwxyz234567', true);
     $encoded = $base32->encode($uuid);
 
+    $folder_depth = apply_filters('umff_folder_depth', 1);
+
+    if ($folder_depth > 1) {
+        $encoded = str_split($encoded);
+        foreach ($encoded as $index => &$part) {
+            if ($index < $folder_depth - 1) {
+                $part = $part . '/';
+            }
+        }
+        $encoded = implode('', $encoded);
+    }
+
     $customdir = "/$encoded";
     $path['path'] = str_replace($path['subdir'], '', $path['path']); //remove default year/month directory
     $path['url'] = str_replace($path['subdir'], '', $path['url']);
