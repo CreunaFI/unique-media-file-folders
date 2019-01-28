@@ -17,9 +17,11 @@ if (file_exists(__DIR__ . '/vendor')) {
 
 add_action('plugins_loaded', function () {
     add_filter('wp_handle_upload_prefilter', 'umff_pre_upload');
-
     add_filter('wp_handle_upload', 'umff_post_upload');
 });
+
+add_action('umff_pre_upload', 'umff_pre_upload');
+add_action('umff_post_upload', 'umff_post_upload');
 
 function umff_pre_upload($file)
 {
