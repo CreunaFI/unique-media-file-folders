@@ -23,6 +23,10 @@ add_action('plugins_loaded', function () {
 add_action('umff_pre_upload', 'umff_pre_upload');
 add_action('umff_post_upload', 'umff_post_upload');
 
+// ACF Image Aspect Ratio Crop compat
+add_filter('aiarc_pre_customize_upload_dir', 'umff_pre_upload');
+add_filter('aiarc_after_customize_upload_dir', 'umff_post_upload');
+
 function umff_pre_upload($file)
 {
     add_filter('upload_dir', 'umff_custom_upload_dir');
