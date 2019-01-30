@@ -1,6 +1,6 @@
 # Unique Media File Folders
 
-Give WordPress media files and their thumbnails their own unique folder
+Change the default WordPress upload folder structure to a randomly generated one. Each image and its thumbnails will be given its own folder with a randomly generated name.
 
 ## Why?
 
@@ -32,7 +32,7 @@ https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/image-1024x576
 
 ## Customizing folder depth
 
-By default, folder depth is 1 so every file will be given its own folder. Customize folder depth using ´umff_folder_depth´ filter. For example:
+By default, folder depth is 1 so every file will be given its own folder. Customize folder depth using `umff_folder_depth` filter. For example:
 
 ```
 add_filter('umff_folder_depth', function() {
