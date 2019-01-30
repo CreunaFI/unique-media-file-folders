@@ -6,7 +6,7 @@ Give WordPress media files and their thumbnails their own unique folder
 
 Because WordPress default media file paths are not very good. You either get year-month folders which may look funny if you are re-using content and is reminiscent of WordPress' blogging engine roots. The other option is to put all files into one folder which does not scale when you start to have a lot of files.
 
-Too many files in a folder can lead to performance issues on filesystems like EX4. If all your files are in the same folder, you’ll also run into file name conflicts.
+Too many files in a folder can lead to performance issues on filesystems like EXT4. If all your files are in the same folder, you’ll also run into file name conflicts.
 
 ## How it looks
 
