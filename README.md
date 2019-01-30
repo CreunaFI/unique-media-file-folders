@@ -53,3 +53,7 @@ https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q5/image-1024x
 ## How it works
 
 For all of your files, first a UUID4 will be generated. It will then be encoded into [Base32](https://en.wikipedia.org/wiki/Base32) which means it will contain characters from a to z and 2 to 7. This is used as the folder name. If folder depth option is greater than 1, first n characters of the UUID are used as subfolders.
+
+## Further reading
+
+[Structuring WordPress’ upload directory to handle lots of files - Ctrl blog](https://www.ctrl.blog/entry/wp-content-uploads)
