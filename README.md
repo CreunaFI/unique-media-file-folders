@@ -1,6 +1,6 @@
 # Unique Media File Folders
 
-Change the default WordPress upload folder structure to a randomly generated one. Each image and its thumbnails will be given its own folder with a randomly generated name.
+Change the default WordPress upload folder structure to a randomly generated one. Each image and its thumbnails will be given an unique folder with a randomly generated name.
 
 ## Why?
 
