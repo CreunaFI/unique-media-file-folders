@@ -1,0 +1,15 @@
+language: php
+php:
+  - '5.4'
+script:
+  - composer install
+  - mkdir -p unique-media-file-folders
+  - rsync -av * unique-media-file-folders --exclude unique-media-file-folders
+  - zip -r unique-media-file-folders.zip unique-media-file-folders -x \*.git\*
+deploy:
+  provider: releases
+  api_key: '$GITHUB_API_KEY'
+  file: "unique-media-file-folders.zip"
+  skip_cleanup: true
+  on:
+    tags: true
