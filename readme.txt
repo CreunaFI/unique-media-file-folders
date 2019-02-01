@@ -18,10 +18,7 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
-= 1.0.3 =
-* Deploy using Travis
-
-= 1.0.2 =
+= 1.0.4 =
 * Deploy using Travis
 
 = 1.0.1 =
