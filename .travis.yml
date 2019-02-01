@@ -1,6 +1,6 @@
 language: php
 php:
-  - '5.4'
+  - '7.0'
 script:
   - composer install
   - mkdir -p unique-media-file-folders
