@@ -1,5 +1,7 @@
 # Unique Media File Folders
 
+[![Build Status](https://travis-ci.com/CreunaFI/unique-media-file-folders.svg?branch=master)](https://travis-ci.com/CreunaFI/unique-media-file-folders)
+
 Change the default WordPress upload folder structure to a randomly generated one. Each image and its thumbnails will be given an unique folder with a randomly generated name.
 
 ## Why?
@@ -29,6 +31,12 @@ https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/image-300x168.
 https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/image-768x432.jpg
 https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/image-1024x576.jpg
 ```
+
+## How to install
+
+1. Download latest version from the [Releases tab](https://github.com/CreunaFI/unique-media-file-folders/releases)
+2. Unzip the plugin into your wp-content/plugins directory
+3. Activate **Unique Media File Folders** from your Plugins page
 
 ## Customizing folder depth
 
