@@ -18,5 +18,8 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
+= 1.0.1 =
+* Update PHP requirement to 7.0
+
 = 1.0.0 =
 * Initial release
