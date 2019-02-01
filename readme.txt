@@ -14,9 +14,12 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Installation ==
 1. Install this plugin into **wp-content/plugins**
-2. **Unique Media File Folders** SearchWP Finnish Base Forms from your Plugins page
+2. Enable **Unique Media File Folders** on your Plugins page
 
 == Changelog ==
+
+= 1.0.2 =
+* Deploy using Travis
 
 = 1.0.1 =
 * Update PHP requirement to 7.0
