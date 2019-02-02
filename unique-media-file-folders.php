@@ -3,7 +3,7 @@
 Plugin name: Unique Media File Folders
 Plugin URI: https://github.com/CreunaFI/unique-media-file-folders
 Description: Give all media files and their thumbnails their own unique folder
-Version: 1.1.1
+Version: 1.1.2
 Author: Johannes Siipola
 Author URI: https://siipo.la
 License: GPLv2 or later
@@ -12,7 +12,7 @@ License URI: http://www.gnu.org/licenses/gpl-2.0.html
 
 // Check if we are using local Composer
 if (file_exists(__DIR__ . '/vendor')) {
-    require 'vendor/autoload.php';
+    require __DIR__ . '/vendor/autoload.php';
 }
 
 $update_checker = Puc_v4_Factory::buildUpdateChecker(

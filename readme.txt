@@ -18,14 +18,17 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
+= 1.1.2 =
+* Fix: Fix error where plugin did not sometimes load correct Composer autoloader
+
 = 1.1.1 =
-* Enable auto update for the plugin
+* Feature: Enable auto update for the plugin
 
 = 1.0.4 =
-* Deploy using Travis
+* Fix: Deploy using Travis
 
 = 1.0.1 =
-* Update PHP requirement to 7.0
+* Fix: Update PHP requirement to 7.0
 
 = 1.0.0 =
 * Initial release
