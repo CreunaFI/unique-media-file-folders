@@ -18,6 +18,9 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
+= 1.1.0 =
+* Enable auto update for the plugin
+
 = 1.0.4 =
 * Deploy using Travis
 
