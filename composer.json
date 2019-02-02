@@ -9,6 +9,7 @@
     ],
     "require": {
         "ramsey/uuid": "^3.8",
-        "ademarre/binary-to-text-php": "dev-master"
+        "ademarre/binary-to-text-php": "dev-master",
+        "yahnis-elsts/plugin-update-checker": "^4.5"
     }
 }

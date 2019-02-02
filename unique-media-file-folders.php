@@ -15,6 +15,13 @@ if (file_exists(__DIR__ . '/vendor')) {
     require 'vendor/autoload.php';
 }
 
+$update_checker = Puc_v4_Factory::buildUpdateChecker(
+    'https://github.com/CreunaFI/unique-media-file-folders',
+    __FILE__,
+    "unique-media-file-folders"
+);
+$update_checker->getVcsApi()->enableReleaseAssets();
+
 add_action('plugins_loaded', function () {
     add_filter('wp_handle_upload_prefilter', 'umff_pre_upload');
     add_filter('wp_handle_upload', 'umff_post_upload');
