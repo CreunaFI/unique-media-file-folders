@@ -54,9 +54,8 @@ function umff_custom_upload_dir($path)
 
     $uuid4 = \Ramsey\Uuid\Uuid::uuid4();
     $uuid = $uuid4->getBytes();
-
-    $base32 = new Base2n(5, 'abcdefghijklmnopqrstuvwxyz234567', true);
-    $encoded = $base32->encode($uuid);
+    
+    $encoded = \xobotyi\basen\Base36::encode($uuid);
 
     $folder_depth = apply_filters('umff_folder_depth', 1);
 

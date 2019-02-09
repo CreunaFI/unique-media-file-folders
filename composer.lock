@@ -4,53 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "d928b3795a9d85145be59bdd0000c3a8",
+    "content-hash": "8b74fa2436dc094b264d01084fc876a2",
     "packages": [
-        {
-            "name": "ademarre/binary-to-text-php",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/ademarre/binary-to-text-php.git",
-                "reference": "5d98d17be16d65e03851654a717293a4317bb947"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/ademarre/binary-to-text-php/zipball/5d98d17be16d65e03851654a717293a4317bb947",
-                "reference": "5d98d17be16d65e03851654a717293a4317bb947",
-                "shasum": ""
-            },
-            "require": {
-                "php": ">=5.2.14"
-            },
-            "type": "library",
-            "autoload": {
-                "psr-0": {
-                    "Base2n": ""
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Andre DeMarre",
-                    "role": "Developer"
-                }
-            ],
-            "description": "Collection of binary-to-text encoding utilities for PHP. Includes Base32 support and much more.",
-            "homepage": "https://github.com/ademarre/binary-to-text-php",
-            "keywords": [
-                "base-4",
-                "base-8",
-                "base32",
-                "binary",
-                "octal",
-                "rfc4648"
-            ],
-            "time": "2015-02-27T05:11:22+00:00"
-        },
         {
             "name": "paragonie/random_compat",
             "version": "v9.99.99",
@@ -237,6 +192,60 @@
             "time": "2018-08-06T14:22:27+00:00"
         },
         {
+            "name": "xobotyi/basen",
+            "version": "v1.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/xobotyi/basen.git",
+                "reference": "a569d47df81a12a048582d3466ecebd949422aa2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/xobotyi/basen/zipball/a569d47df81a12a048582d3466ecebd949422aa2",
+                "reference": "a569d47df81a12a048582d3466ecebd949422aa2",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=7.1"
+            },
+            "require-dev": {
+                "codacy/coverage": "^1.4.0",
+                "phpunit/phpunit": "^6.5.3"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "xobotyi\\basen\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Anton Zinovyev",
+                    "email": "xog3@yandex.ru",
+                    "role": "Developer"
+                }
+            ],
+            "description": "Text and integers encoding utilities for PHP with no extensions dependencies. Base32, Base58, Base64 and much more!",
+            "homepage": "https://github.com/xobotyi/basen",
+            "keywords": [
+                "base16",
+                "base32",
+                "base36",
+                "base58",
+                "base62",
+                "base64",
+                "binary",
+                "encoding",
+                "rfc4648",
+                "text"
+            ],
+            "time": "2018-06-29T19:52:59+00:00"
+        },
+        {
             "name": "yahnis-elsts/plugin-update-checker",
             "version": "v4.5",
             "source": {
@@ -285,9 +294,7 @@
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": {
-        "ademarre/binary-to-text-php": 20
-    },
+    "stability-flags": [],
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": [],
