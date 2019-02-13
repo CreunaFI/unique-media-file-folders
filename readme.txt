@@ -3,7 +3,7 @@ Contributors: joppuyo
 Tags: uuid, media, gallery, folder, directory, upload, image
 Requires at least: 4.9
 Tested up to: 5.0
-Requires PHP: 7.0
+Requires PHP: 7.1
 License: License: GPLv2 or later
 
 Change the default WordPress upload folder structure to a randomly generated one.
@@ -17,6 +17,10 @@ Change the default WordPress upload folder structure to a randomly generated one
 2. Enable **Unique Media File Folders** on your Plugins page
 
 == Changelog ==
+
+= 2.0.0 =
+* Feature: Use base36 instead of base32 for a shorter folder name
+* Breaking: Because we are using a different library, the plugin now requires at least PHP 7.1
 
 = 1.1.2 =
 * Fix: Fix error where plugin did not sometimes load correct Composer autoloader
