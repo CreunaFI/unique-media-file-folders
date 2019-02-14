@@ -27,13 +27,13 @@ https://example.com/wp-content/uploads/2019/01/image-300x168.png
 The plugin will generate the following paths:
 
 ```
-https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/photo.jpg
-https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/photo-150x150.jpg
-https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q5/photo-300x168.jpg
+https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q/photo.jpg
+https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q/photo-150x150.jpg
+https://example.com/wp-content/uploads/cnk3nae60p6f3e942b4cpvm8q/photo-300x168.jpg
 
-https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmbf/image.png
-https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmbf/image-150x150.png
-https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmbf/image-300x168.png
+https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmb/image.png
+https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmb/image-150x150.png
+https://example.com/wp-content/uploads/2xv5r4tnlrcodofcq3ageksmb/image-300x168.png
 ```
 
 ## How to install
@@ -55,13 +55,13 @@ add_filter('umff_folder_depth', function() {
 Will yield the following folder structure:
 
 ```
-https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q5/photo.jpg
-https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q5/photo-150x150.jpg
-https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q5/photo-300x168.jpg
+https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q/photo.jpg
+https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q/photo-150x150.jpg
+https://example.com/wp-content/uploads/c/n/k/3nae60p6f3e942b4cpvm8q/photo-300x168.jpg
 
-https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmbf/image.png
-https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmbf/image-150x150.png
-https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmbf/image-300x168.png
+https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmb/image.png
+https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmb/image-150x150.png
+https://example.com/wp-content/uploads/2/x/v/5r4tnlrcodofcq3ageksmb/image-300x168.png
 ```
 
 ## How are paths generated
