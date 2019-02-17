@@ -1,6 +1,7 @@
 {
     "name": "joppuyo/unique-media-file-folders",
     "type": "wordpress-plugin",
+    "description": "Change the default WordPress upload folder structure to a randomly generated one",
     "authors": [
         {
             "name": "Johannes Siipola",
