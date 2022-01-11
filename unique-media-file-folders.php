@@ -74,6 +74,6 @@ function umff_custom_upload_dir($path)
     $path['url'] = str_replace($path['subdir'], '', $path['url']);
     $path['subdir'] = $customdir;
     $path['path'] = $path['path'] . $customdir;
-    $path['url'] = $path['path'] . $customdir;
+    $path['url'] = $path['url'] . $customdir;
     return $path;
 }
