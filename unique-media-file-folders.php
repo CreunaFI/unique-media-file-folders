@@ -52,10 +52,7 @@ function umff_custom_upload_dir($path)
         return $path;
     }
 
-    $uuid4 = \Ramsey\Uuid\Uuid::uuid4();
-    $uuid = $uuid4->getBytes();
-    
-    $encoded = \xobotyi\basen\Base36::encode($uuid);
+    $encoded = umff_random_string(25);
 
     $folder_depth = apply_filters('umff_folder_depth', 1);
 
@@ -76,4 +73,15 @@ function umff_custom_upload_dir($path)
     $path['path'] = $path['path'] . $customdir;
     $path['url'] = $path['url'] . $customdir;
     return $path;
+}
+
+function umff_random_string($length) {
+    $random_string = '';
+    for($i = 0; $i < $length; $i++) {
+        $number = random_int(0, 36);
+        $character = base_convert($number, 10, 36);
+        $random_string = $random_string . $character;
+    }
+
+    return $random_string;
 }

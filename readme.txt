@@ -18,6 +18,10 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
+= 3.0.0 =
+* Breaking change: Changed how the unique folter name is generated, instead of converting a UUIDv4 to base36, we simply generate a base36-style random string character by character
+* Fix: Changed Travis to GitHub actions
+
 = 2.0.0 =
 * Feature: Use base36 instead of base32 for a shorter folder name
 * Breaking: Because we are using a different library, the plugin now requires at least PHP 7.1
