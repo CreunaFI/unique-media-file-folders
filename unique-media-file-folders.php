@@ -3,7 +3,7 @@
 Plugin name: Unique Media File Folders
 Plugin URI: https://github.com/CreunaFI/unique-media-file-folders
 Description: Give all media files and their thumbnails their own unique folder
-Version: 2.0.0
+Version: 3.0.0
 Author: Johannes Siipola
 Author URI: https://siipo.la
 License: GPLv2 or later

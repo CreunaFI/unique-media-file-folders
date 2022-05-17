@@ -5,6 +5,7 @@ Requires at least: 4.9
 Tested up to: 5.9
 Requires PHP: 7.1
 License: License: GPLv2 or later
+Stable tag: 3.0.0
 
 Change the default WordPress upload folder structure to a randomly generated one.
 
