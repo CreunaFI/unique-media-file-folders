@@ -9,8 +9,6 @@
         }
     ],
     "require": {
-        "ramsey/uuid": "^3.8",
-        "yahnis-elsts/plugin-update-checker": "^4.5",
-        "xobotyi/basen": "^1.0"
+        "yahnis-elsts/plugin-update-checker": "^4.5"
     }
 }
