@@ -2,7 +2,7 @@
 Contributors: joppuyo
 Tags: uuid, media, gallery, folder, directory, upload, image
 Requires at least: 4.9
-Tested up to: 5.0
+Tested up to: 5.9
 Requires PHP: 7.1
 License: License: GPLv2 or later
 
