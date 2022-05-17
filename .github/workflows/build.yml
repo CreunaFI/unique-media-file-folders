@@ -29,7 +29,7 @@ jobs:
 
       - uses: actions/upload-artifact@master
         with:
-          name: ${{env.plugin-slug}}
+          name: ${{env.plugin-slug}}.zip
           path: ${{env.plugin-slug}}.zip
 
       - name: Release
