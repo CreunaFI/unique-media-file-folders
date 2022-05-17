@@ -5,7 +5,7 @@ Requires at least: 4.9
 Tested up to: 5.9
 Requires PHP: 7.1
 License: License: GPLv2 or later
-Stable tag: 3.0.0
+Stable tag: 3.0.1
 
 Change the default WordPress upload folder structure to a randomly generated one.
 
@@ -19,8 +19,12 @@ Change the default WordPress upload folder structure to a randomly generated one
 
 == Changelog ==
 
+= 3.0.1 =
+* Fix: Fix typo, fix add missing changelog item
+
 = 3.0.0 =
-* Breaking change: Changed how the unique folter name is generated, instead of converting a UUIDv4 to base36, we simply generate a base36-style random string character by character
+* Breaking change: Changed how the unique folder name is generated, instead of converting a UUIDv4 to base36, we simply generate a base36-style random string character by character
+* Fix: Fix bug caused by a typo in the code
 * Fix: Changed Travis to GitHub actions
 
 = 2.0.0 =
